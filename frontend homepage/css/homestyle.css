@@ -1,0 +1,248 @@
+@import url(../css/main.min.css);
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  font-family: "Inter", "Nunito", sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+.body-home {
+  height: 100%;
+  background-image: url(../img/web-bg.png);
+  background-size: cover;
+}
+
+.font-custom {
+  font-family: Nunito;
+}
+
+.rounded-custom {
+  border-radius: 1rem;
+}
+
+.modal-custom {
+  border-radius: 1rem;
+  color: #031e4d;
+  border: none;
+  padding: 2rem 2.5rem;
+}
+
+.card-custom {
+  border-radius: 1rem;
+  background-color: rgb(3, 28, 50, 0.08);
+  border: none;
+}
+
+.header-custom {
+  background-color: rgb(3, 28, 50, 0.08);
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+}
+
+.content-custom {
+  height: 54vh;
+}
+
+.rounded-4 {
+  border-radius: 0.5rem;
+}
+
+.list-custom li {
+  margin: 6px 0;
+}
+
+.mark {
+  background-color: rgb(169, 232, 252);
+  padding: 0.1em 0.2em;
+}
+
+.navbar-home {
+  background-color: rgb(14, 36, 50, 0.9);
+}
+
+.navbar-faq {
+  background-color: rgb(14, 36, 50, 1);
+}
+
+.navbar ul li a {
+  letter-spacing: 0.5px;
+}
+
+.tab-content {
+  font-size: 14px;
+}
+
+.about-text,
+.competition-page,
+.info-text {
+  color: #031e4d;
+}
+
+#about-neo .card {
+  background-color: #d8e8f1;
+  border-radius: 0.6rem;
+}
+
+#competition .card {
+  background-color: transparent;
+}
+
+#competition .card .card-title {
+  text-shadow: 2px 2px 10px #f1fbfd;
+}
+
+.badge-color {
+  background-color: #013a65;
+}
+
+.scroll-box {
+  width: 100%;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.scroll-box::-webkit-scrollbar {
+  width: 9px;
+}
+
+.scroll-box::-webkit-scrollbar-track {
+  border-radius: 2rem;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.scroll-box::-webkit-scrollbar-thumb {
+  border-radius: 2rem;
+  background-color: #065a98;
+  border: 2px solid rgb(224, 224, 224);
+}
+
+.info-page {
+  height: 110vh;
+}
+
+.timeline-page {
+  height: 110vh;
+}
+
+.highlight {
+  background-color: rgba(155, 195, 223, 0.4);
+}
+
+.sponsors-page .card,
+.medpar-page .card {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.title-line {
+  height: 4px;
+  width: 6rem;
+  background-color: #065a98;
+  border-radius: 1rem;
+  margin-bottom: 0.8rem;
+}
+
+.line {
+  height: 4px;
+  width: 7rem;
+  background-color: #3e7afe;
+  border-radius: 2rem;
+}
+
+hr {
+  height: 2px;
+  margin: 1rem 0;
+}
+
+.landing .row,
+.competition-page,
+#timeline .row,
+.medpar-page {
+  height: 100vh;
+}
+
+.about .row,
+#info .row,
+#contact .row {
+  height: 120vh;
+}
+
+.judges-page {
+  height: 155vh;
+}
+
+.faq-page {
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+}
+
+.footer-custom {
+  background-color: rgb(14, 36, 50, 1);
+}
+
+@media (max-width: 1199.98px) {
+  .navbar {
+    background-color: rgb(14, 36, 50, 1);
+  }
+
+  .body-home {
+    background-image: url(../img/mobile-bg.png);
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+  .about-text,
+  .competition-page,
+  .info-text {
+    color: #cce6ee;
+  }
+
+  .landing .row {
+    height: 80vh;
+  }
+
+  .about .row,
+  .competition-page,
+  .medpar-page,
+  #contact .row,
+  #timeline .row,
+  .judges-page,
+  #info .row {
+    height: auto;
+  }
+
+  .about .container,
+  #competition .container,
+  #info .container,
+  #timeline .container,
+  .judges .container,
+  #contact .container {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+
+  .sponsors .container {
+    padding-top: 8rem;
+  }
+
+  .medpar .container {
+    padding-bottom: 8rem;
+  }
+
+  #competition .card .card-title {
+    text-shadow: none;
+  }
+
+  footer {
+    background-color: #003c6a77;
+  }
+}
+
+@media (min-width: 768px) {
+  .carousel-btn {
+    font-size: xx-large;
+  }
+}
