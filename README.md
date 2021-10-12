@@ -3,7 +3,7 @@
 Bagian yang diubah:
 
 - Modal Benefits
-- Modal Short Story Writing
+- Modal Short Story Writing <br>
   Bagian Rules (div class="tab-pane h-100 fade" id="gr-ssw")
-- Timeline
+- Timeline <br>
   class "highlight" dipindahkan ke row Normal Registration
